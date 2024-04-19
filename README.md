@@ -2,6 +2,9 @@
 
 A digital twin is a virtual model designed to accurately mirror a physical object, system, or process. It integrates real-time data to simulate, predict, and optimize performance, enhancing decision-making and operational efficiency. This technology is increasingly utilized across industries to anticipate problems and test solutions in a cost-effective virtual environment
 
+## Expectation
+For our capstone project, we aimed to employ an object detection algorithm, such as YOLO, to analyze video camera feeds and accurately track robot movements across a grid. Our objective was to detect when a robot picks up or sets down a rack, effectively replicating all robot movement within the actual lab environment. The data extracted from the Python scripts and camera feeds—including X and Y coordinates and object types like "robot" and "rack"—would then be uploaded to the DynamoDB database table. Utilizing the DynamoDB blueprints plugin that we acquired, we planned to query this database table to retrieve the necessary information. This data would then allow us to simulate the robots' movements in the lab using a virtual environment created in Unreal Engine 5 and various 3D models developed in Blender.
+
 ## Gulfstream Sponsorship
 
 From 2008, when the G650 was introduced, Gulfstream has been using 3D CAD data to certify and produce all in-production aircraft. With this massive amount of 3D data, the XR team has been able to create several XR simulations.
